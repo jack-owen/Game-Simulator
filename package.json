@@ -1,0 +1,14 @@
+{
+  "name": "toy-robot-simulator",
+  "version": "1.0.0",
+  "description": "Simulation of a toy robot moving on a square tabletop of 5x5 dimensions",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Jack Owen",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
+}
