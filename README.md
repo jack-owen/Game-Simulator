@@ -20,6 +20,44 @@ The Node app starts from the index.js file to handle the user input stream. The 
     node .
     ```
 
+    **Example inputs**
+
+    <ol type="a">
+        <li>PLACE 0,0,NORTH
+            <br>
+            MOVE
+            <br>
+            REPORT
+            <br>
+            Output: 0,0,NORTH
+        </li>
+        <br>
+        <li>PLACE 0,0,NORTH
+            <br>
+            LEFT
+            <br>
+            REPORT
+            <br>
+            Output: 0,0,WEST
+        </li>
+        <br>
+        <li>PLACE 1,2,EAST
+            <br>
+            MOVE
+            <br>
+            MOVE
+            <br>
+            LEFT
+            <br>
+            MOVE
+            <br>
+            REPORT
+            <br>
+            Output: 3,3,NORTH
+        </li>
+    </ol>
+
+
 3.  **Install Jest testing framework**
 
     Install the Jest dependency
